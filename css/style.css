@@ -91,7 +91,10 @@ ul li{
 #portfolio{
     background: #ffdd99;
 }
-
+.activePort{
+    background: #fff;
+    color: #000;
+}
 .portfolio-btn{
     background: #ebc985;
     padding: 5px 20px !important;
@@ -108,16 +111,22 @@ ul li{
 }
 
 /* comment section */
-.activePort{
-    background: #fff;
-    color: #000;
-}
+
 #comment{
     background: #d74680;
 }
 #comment .owl-carousel img{
     width: 150px;
 }
+.owl-theme .owl-dots button{
+    outline: none;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    width: 22px;
+    background: #000;
+    outline: none;
+}
+
 h6{
     color: #ffdd99;
 }

@@ -1,0 +1,29 @@
+
+
+/* for small devices */
+@media only screen and (min-width:100px) and (max-width:991px){
+    .head-h3{
+        font-size: 25px;
+        padding-bottom: 50px;
+    }
+    .btn-header{
+        height: 60px !important;
+        width: 245px !important;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .service-heade p,  .portfolio-head p{
+        font-size: 15px;
+        max-width: 590px;
+        padding-bottom: 50px;
+    }
+    .service-item h3{
+        font-size: 18px;
+        color: #fff;
+    }
+    .portfolio-btn{
+        background: #ebc985;
+        padding: 5px 10px !important;
+    } 
+}

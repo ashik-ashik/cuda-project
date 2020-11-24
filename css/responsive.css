@@ -25,5 +25,8 @@
     .portfolio-btn{
         background: #ebc985;
         padding: 5px 10px !important;
-    } 
+    }
+    #comment .owl-carousel img{
+        width: 60px;
+    }
 }

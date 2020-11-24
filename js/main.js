@@ -60,6 +60,7 @@ $(document).ready(function(){
         margin:10,
         dots:true,
         autoplay:true,
+        
         responsive:{
             0:{
                 items:1,

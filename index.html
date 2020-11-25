@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/cssmenu-02/styles.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -18,25 +19,33 @@
 
 <!-- miniMenu -->
     <div id="miniMenu"></div>
-    <section class="header sticky-top" id="menu">
-    <div class="container">
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="" class="logo"></a>
-            <button class="navbar-toggler toggler" type="button" data-toggle="collapse" data-target="#mynav" >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="navbar-collapse collapse" id="mynav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link px-4">Home</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link px-4">About</a></li>
-                    <li class="nav-item"><a href="#portfolio" class="nav-link px-4">Work</a></li>
-                    <li class="nav-item"><a href="#comment" class="nav-link px-4">Block</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link px-4">Contact</a></li>
+    <section class=" sticky-top" id="menu">
+        <div class="container-lg">
+            <div id='cssmenu'>
+                <ul class="mr-auto">
+                   <li><a href='#'>Home</a></li>
+                   <li class='active'><a href='#services'>About</a>
+                      <ul>
+                         <li><a href='#'>Who With Me</a>
+                            <ul>
+                               <li><a href='#team'>Team</a></li>
+                               <li><a href='#'>Sub Product</a></li>
+                            </ul>
+                         </li>
+                         <li><a href='#'>What I Know</a>
+                            <ul>
+                               <li><a href='#skill'>Skills</a></li>
+                               <li><a href='#'>Sub Product</a></li>
+                            </ul>
+                         </li>
+                      </ul>
+                   </li>
+                   <li><a href='#portfolio'>Portfolio</a></li>
+                   <li><a href='#comment'>Blog</a></li>
+                   <li><a href='#contact'>Contact</a></li>
                 </ul>
             </div>
-        </nav>
-    </div>
+        </div>
 </section>
 
     <header class="header">
@@ -379,6 +388,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/circle-progress.min.js"></script>
+    <script src="css/cssmenu-02/script.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

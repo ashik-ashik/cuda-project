@@ -5,8 +5,11 @@ body{
 .header{
     background: #87509c;
 }
+#menu{
+    background: #6c407e;
+}
 
-.nav-item:hover{
+#cssmenu ul li:hover{
     background: #643a79;
     border-radius: 8px;
 }
@@ -91,13 +94,14 @@ ul li{
 #portfolio{
     background: #ffdd99;
 }
-.activePort{
-    background: #fff;
-    color: #000;
-}
+
 .portfolio-btn{
     background: #ebc985;
     padding: 5px 20px !important;
+    outline: none !important;
+} 
+.portfolio-btn:active{
+    outline: none !important;
 } 
 .portfolio-btn:hover{
     background: #fff;
@@ -109,6 +113,12 @@ ul li{
 .portfolio-btn-lg:hover{
     background: #009479;
 }
+
+.activePort{
+    background: #fff;
+    color: #000;
+}
+/* portfolio end */
 
 /* comment section */
 
